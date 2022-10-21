@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--영상부분-->
+    <ImageView
+        android:id="@+id/thumbnail_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_baseline_people_24"/>
+    <!--아래부분-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_people_24"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#D0D0D0"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="역대급 체급차이.. 모두가 놀란 경기결과!!"
+            android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_id"
+                style="@style/common_detail"
+                android:layout_marginRight="10dp"
+                android:text="아이디"/>
+                <TextView
+                    android:id="@+id/tv_views"
+                    style="@style/common_detail"
+                    android:layout_marginRight="10dp"
+                    android:text="2.7M views"/>
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/common_detail"
+                    android:text="5개월전"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/btm_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:layout_marginTop="15dp"/>
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="10dp"
+    android:background="#8E8B8B"/>
+
+</LinearLayout>
