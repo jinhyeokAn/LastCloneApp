@@ -44,7 +44,7 @@ ArrayList<HomeDTO> list;
         h.title.setText(list.get(i).getTitle());
         h.tv_id.setText(list.get(i).getId());
         h.tv_views.setText(list.get(i).getViews() + "회");
-        h.tv_time.setText(list.get(i).getTime()+"일전");
+        h.tv_time.setText(list.get(i).getTime()+"세일전");
 
     }
 
@@ -71,7 +71,7 @@ ArrayList<HomeDTO> list;
     public void Count_View(int views,@NonNull RecvHolder h, int i){
        String view = list.get(i).getViews()+"";
         if(views <1000 ){
-            h.tv_views.setText( view+ "회");
+            h.tv_views.setText( view+ "회전");
         }else if(views >=1000){
             view = views/1000 + "";
             h.tv_views.setText( view+ "천만회");

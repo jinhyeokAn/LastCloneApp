@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
          tabs.addTab(tabs.newTab().setText("의견보내기"));
         ArrayList<HomeDTO> list = new ArrayList<>();
         list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_baseline_arrow_downward_24,R.drawable.ic_launcher_background));
-        list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_baseline_arrow_downward_24,R.drawable.ic_launcher_background));
+        list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_launcher_background,R.drawable.ic_launcher_background));
         list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_baseline_arrow_downward_24,R.drawable.ic_launcher_background));
         list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_baseline_arrow_downward_24,R.drawable.ic_launcher_background));
         list.add(new HomeDTO("테스트1","테스트1","50","5", R.drawable.ic_baseline_arrow_downward_24,R.drawable.ic_launcher_background));
