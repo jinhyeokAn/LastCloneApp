@@ -18,14 +18,14 @@
         android:orientation="vertical"
         android:layout_gravity="center">
         <TextView
-            android:id="@+id/list_title"
+            android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="나중에 볼 동영상"
             android:textSize="15dp"/>
         <TextView
-            android:id="@+id/play_list_count"
+            android:id="@+id/tv_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#333333"

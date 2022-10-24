@@ -44,7 +44,7 @@ ArrayList<HomeDTO> list;
         h.title.setText(list.get(i).getTitle());
         h.tv_id.setText(list.get(i).getId());
         h.tv_views.setText(list.get(i).getViews() + "회");
-        h.tv_time.setText(list.get(i).getTime()+"세일전");
+        h.tv_time.setText(list.get(i).getTime()+"일전");
 
     }
 
